@@ -6,9 +6,7 @@ html{
     padding:0;
 }
 header{
-    background-image: url(https://source.unsplash.com/random/?study);
-    background-repeat: no-repeat;
-    background-size: 100vw;
+   
     height:10vh;
     width:99.8vw;
     display:flex;
@@ -60,9 +58,19 @@ header{
     border-bottom: 5px solid;
     border-bottom-color:orange ;
 }
-section{
-    background: url(https://source.unsplash.com/random/?study);
-    background-repeat: no-repeat;
-    background-size:100vw ;
-    height: 200vh;
-}
+/* typewriter section */
+section {
+        background-color:#7eebc6;
+        display: flex;
+        align-items: center;
+        height: 30vh;
+        justify-content: space-around;
+        font-size: 3rem;
+        color: rgb(73, 102, 134);
+  }
+  section a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  }
+/* ends here */
