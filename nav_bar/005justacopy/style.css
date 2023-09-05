@@ -35,7 +35,7 @@ header{
 }
 
 .navigation li{
-    
+    /* border:1px solid black; */
     box-sizing: border-box;
     height: 10vh;
     display:flex;
@@ -59,18 +59,71 @@ header{
     border-bottom-color:orange ;
 }
 /* typewriter section */
-section {
-        background-color:#7eebc6;
+.typewriter{
+        background-color:#9df14d;
         display: flex;
         align-items: center;
-        height: 30vh;
+        height: 50vh;
         justify-content: space-around;
         font-size: 3rem;
-        color: rgb(73, 102, 134);
+        color: rgb(14, 64, 173);
   }
   section a{
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: rgb(99, 69, 231);
+  }
+  .text{
+    animation-name: fade;
+    animation-duration: 120S;
+    animation-iteration-count: 60;
+  }
+  @keyframes fade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100%;
+    }
   }
 /* ends here */
+/* footer styling */
+.f_box{
+    position: relative;
+    z-index: 20;
+    height:30vh;
+    width:100%;
+    border:1px solid black;
+    color:blanchedalmond;
+    background-color: #2b7de9;
+    display:flex;
+    align-items: center;
+    
+}
+.img{
+    height:7vh;
+    width:100px;
+    display: flex;
+    margin-left: 30px;    
+    }
+.name{
+    font-size: 20px;
+    margin-left:2vw;
+}
+.border{
+    width:8px;
+    height:7vh;
+    border-right:3px solid rgb(230, 222, 222);
+}
+.infofooter{
+    opacity: 100%;
+    margin-left: 10px;
+    font-size: 2rem;
+}
+.symbol img{
+    height:3vh;
+    width:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+/* footer styling ends here */
